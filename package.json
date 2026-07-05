@@ -1,0 +1,17 @@
+{
+  "name": "frontier-gambit",
+  "version": "1.0.0",
+  "description": "Fast-paced western territory game",
+  "scripts": {
+    "sync": "xcopy /Y index.html www\\ & xcopy /Y icon.svg www\\ & xcopy /Y manifest.json www\\ & xcopy /Y sw.js www\\",
+    "build:android": "npm run sync && npx cap sync android",
+    "open:android": "npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/core": "^6.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.0.0"
+  }
+}

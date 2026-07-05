@@ -1,0 +1,11 @@
+{
+  "appId": "com.frontiergambit.app",
+  "appName": "Frontier Gambit",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "backgroundColor": "#090400"
+  }
+}

@@ -1423,7 +1423,7 @@ function shareScore() {
   const title  = document.getElementById('winTitle').textContent;
   const earned = document.getElementById('winTitle2').textContent;
   const medal  = document.getElementById('winMedal').textContent;
-  const url    = 'https://boylesimon8-web.github.io/Frontier-Gambit/';
+  const url    = 'https://nitefox-007.github.io/Frontier-Gambit/';
   const text   =
     `${medal} ${title}\n` +
     `${G.name} · ${G.faction || 'Frontier'} · Frontier Gambit\n\n` +
@@ -1446,7 +1446,7 @@ function shareScore() {
 }
 
 function shareGame() {
-  const url  = 'https://boylesimon8-web.github.io/Frontier-Gambit/';
+  const url  = 'https://nitefox-007.github.io/Frontier-Gambit/';
   const text = '🤠 Come play Frontier Gambit — a fast-paced western territory game!\n\nGather gold, battle rivals, earn your title. 8 minutes. Can you hold the frontier?\n\n👇\n' + url;
   if (navigator.share) {
     navigator.share({ title: 'Frontier Gambit', text, url }).catch(() => {});
